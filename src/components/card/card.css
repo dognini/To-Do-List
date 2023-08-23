@@ -1,0 +1,76 @@
+.div-geral {
+    overflow: auto;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 8rem;
+    width: 45.3rem;
+
+    margin-top: 2rem;
+
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px  rgb(166, 167, 166);
+}
+
+.tarefa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.tarefa span{
+    font-size: 1.5rem;
+}
+
+.tarefa b{
+    font-size: 1rem;
+}
+
+.btn-completar {
+    width: 5.2rem;
+    height: 2.2rem;
+    margin-right: 10px;
+
+    color: white;
+    background-color: green;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.btn-excluir{
+    width: 5.2rem;
+    height: 2.2rem;
+
+    margin-right: 1rem;
+
+    color: white;
+    background-color: red;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.btn-completar:hover {
+    width: 5.4rem;
+    height: 2.4rem;
+
+    cursor: pointer;
+}
+
+.btn-excluir:hover{
+    width: 5.4rem;
+    height: 2.4rem;
+
+    cursor: pointer;
+}

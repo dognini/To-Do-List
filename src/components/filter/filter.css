@@ -1,0 +1,62 @@
+.div_filter {
+    margin-top: 2rem;
+    margin-left: 35px;
+}
+
+.div_filter label{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.div_geral{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter label {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.select-filter {
+    width: 25rem;
+}
+
+.div-ordem {
+    margin-left: 5rem;
+    margin-top: 20px;
+}
+
+.div-ordem label {
+    font-size: 1.4rem;
+    margin-left: 8px;
+}
+
+.div-ordem button{
+    width: 5rem;
+    height: 2.3rem;
+
+    margin-left: 8px;
+    margin-top: 5px;
+
+    font-size: 16px;
+
+    color: white;
+    background-color: rgb(18, 50, 109);
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.div-ordem button:hover{
+    height: 2.5rem;
+    font-size: 20px;
+}
